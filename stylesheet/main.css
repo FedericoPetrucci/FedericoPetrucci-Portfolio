@@ -1,3 +1,4 @@
+
 /******** GENERAL ********/
 
 *{
@@ -13,6 +14,7 @@ body{
 a{
     text-decoration: none;
     font-size: 20px;
+    color: black;
 }
 
 .container{
@@ -107,6 +109,30 @@ nav li a{
     padding: 25px 0;
 }
 
+/***** CONTATTI *******/
+
+#contact ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li{
+    padding: 10px 0;
+}
+
+#contact .info{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#contact .contatti{
+    width: 50%;
+    float: right;
+    text-align: center;   
+    overflow: hidden;
+}
+
 
 
 /***** FOOTER *****/
@@ -130,25 +156,6 @@ footer.main p{
     font-size: 1.1rem;
 }
 
-
-/* CONTATTI */
-
-#contact .info{
-    width: 50%;
-    float: left;
-    text-align: center;
-}
-
-#contact .contatti{
-    width: 50%;
-    float: right;
-    text-align: center;   
-}
-
-#contact .contatti .istafoto{
-    width: 30px;
-    
-}
 
 /***** MEDIAQ *****/
 
